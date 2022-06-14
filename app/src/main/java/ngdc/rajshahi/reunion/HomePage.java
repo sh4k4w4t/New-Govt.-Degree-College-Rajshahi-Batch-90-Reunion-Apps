@@ -61,10 +61,10 @@ public class HomePage extends AppCompatActivity {
     private void gridListData() {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo("About NGDC90", R.drawable.ic_baseline_info_24));
+        arrayList.add(new HomeItemGridPojo("Gallery", R.drawable.ic_baseline_insert_photo_24));
         arrayList.add(new HomeItemGridPojo("Become a member", R.drawable.ic_baseline_card_membership_24));
         arrayList.add(new HomeItemGridPojo("Member list", R.drawable.ic_baseline_list_alt_24));
         arrayList.add(new HomeItemGridPojo("Donate", R.drawable.ic_baseline_money_24));
-        arrayList.add(new HomeItemGridPojo("Gallery", R.drawable.ic_baseline_insert_photo_24));
         arrayList.add(new HomeItemGridPojo("Contact", R.drawable.ic_baseline_contact_phone_24));
         arrayList.add(new HomeItemGridPojo("Social Media", R.drawable.ic_baseline_person_search_24));
     }
