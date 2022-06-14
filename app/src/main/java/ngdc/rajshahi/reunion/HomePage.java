@@ -4,7 +4,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,18 +13,15 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.ViewFlipper;
-
 import java.util.ArrayList;
 
 public class HomePage extends AppCompatActivity {
     ViewFlipper viewFlipperID;
     View view1;
     ScrollView scrollView2;
-
     ArrayList<HomeItemGridPojo> arrayList;
     RecyclerView recyclerView;
     HomeItemAdapter homeItem_adapter;
-
     ViewFlipper flipper;
 
     @SuppressLint("CutPasteId")
@@ -72,11 +68,9 @@ public class HomePage extends AppCompatActivity {
     public void showImage(int img) {
         ImageView imageView = new ImageView(getApplicationContext());
         imageView.setBackgroundResource(img);
-
         flipper.addView(imageView);
         flipper.setFlipInterval(3000);
         flipper.setAutoStart(true);
-
         flipper.setInAnimation(getApplicationContext(), android.R.anim.slide_in_left);
         flipper.setOutAnimation(getApplicationContext(), android.R.anim.slide_out_right);
     }
