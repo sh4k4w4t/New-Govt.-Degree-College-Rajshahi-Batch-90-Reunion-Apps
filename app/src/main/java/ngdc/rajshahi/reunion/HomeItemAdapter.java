@@ -37,20 +37,23 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(view -> {
+            if (arrayList.get(position).getTitle().equals("About NGDC90")){
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
+            }
             if (arrayList.get(position).getTitle().equals("Become a member")){
-                Toast.makeText(context, "Still Working...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Member list")){
-                Toast.makeText(context, "Still Working...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Donate")){
-                Toast.makeText(context, "Still Working...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Gallery")){
-                Toast.makeText(context, "Still Working...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Contact")){
-                Toast.makeText(context, "Still Working...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
         });
     }
