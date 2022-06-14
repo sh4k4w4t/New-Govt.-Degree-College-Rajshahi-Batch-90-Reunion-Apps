@@ -55,6 +55,9 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
             if (arrayList.get(position).getTitle().equals("Contact")){
                 Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
+            if (arrayList.get(position).getTitle().equals("Social Media")){
+                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
+            }
         });
     }
 
