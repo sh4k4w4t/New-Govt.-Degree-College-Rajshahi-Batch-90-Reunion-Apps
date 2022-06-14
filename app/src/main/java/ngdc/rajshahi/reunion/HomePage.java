@@ -1,10 +1,12 @@
 package ngdc.rajshahi.reunion;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -75,5 +77,21 @@ public class HomePage extends AppCompatActivity {
 
         flipper.setInAnimation(getApplicationContext(), android.R.anim.slide_in_left);
         flipper.setOutAnimation(getApplicationContext(), android.R.anim.slide_out_right);
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(false);
+        builder.setMessage("Do you want to exit?");
+        builder.setPositiveButton("Yes", (dialog, which) -> {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        });
+        builder.setNegativeButton("No", (dialog, which) -> dialog.cancel());
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }
