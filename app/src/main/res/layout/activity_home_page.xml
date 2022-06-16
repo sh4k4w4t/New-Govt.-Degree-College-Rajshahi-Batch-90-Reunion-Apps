@@ -6,22 +6,11 @@
     tools:context=".HomePage"
     android:orientation="vertical">
 
-    <View
-        android:id="@+id/view1"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="@color/black" />
-
     <ViewFlipper
         android:id="@+id/viewFlipperID"
         android:layout_width="match_parent"
-        android:layout_height="230dp" />
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="@color/black"/>
+        android:layout_height="230dp"
+        android:layout_margin="2dp"/>
 
     <ScrollView
         android:id="@+id/scrollView2"

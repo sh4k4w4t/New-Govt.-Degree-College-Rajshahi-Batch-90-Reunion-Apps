@@ -17,7 +17,6 @@ import java.util.ArrayList;
 
 public class HomePage extends AppCompatActivity {
     ViewFlipper viewFlipperID;
-    View view1;
     ScrollView scrollView2;
     ArrayList<HomeItemGridPojo> arrayList;
     RecyclerView recyclerView;
@@ -34,7 +33,6 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         viewFlipperID = findViewById(R.id.viewFlipperID);
-        view1 = findViewById(R.id.view1);
         scrollView2 = findViewById(R.id.scrollView2);
 
         gridListData();

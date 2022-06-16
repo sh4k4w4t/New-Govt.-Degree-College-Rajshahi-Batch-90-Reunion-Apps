@@ -77,5 +77,4 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
             image=itemView.findViewById(R.id.home_item_recyclerView_image_id);
         }
     }
-
 }
