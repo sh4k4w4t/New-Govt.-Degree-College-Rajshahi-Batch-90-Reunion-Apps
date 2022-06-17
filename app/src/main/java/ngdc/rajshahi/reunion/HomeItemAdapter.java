@@ -35,7 +35,7 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(view -> {
-            if (arrayList.get(position).getTitle().equals("About NGDC90")){
+            if (arrayList.get(position).getTitle().equals("About NGDCR90")){
                 Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Become a member")){
