@@ -44,7 +44,7 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
             if (arrayList.get(position).getTitle().equals("Member list")){
                 Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
-            if (arrayList.get(position).getTitle().equals("Donate")){
+            if (arrayList.get(position).getTitle().equals("Donate Member")){
                 Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
             }
             if (arrayList.get(position).getTitle().equals("Gallery")){
