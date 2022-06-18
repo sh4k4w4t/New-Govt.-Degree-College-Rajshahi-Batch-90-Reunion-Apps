@@ -57,8 +57,8 @@ public class HomePage extends AppCompatActivity {
         arrayList.add(new HomeItemGridPojo("Gallery", R.drawable.ic_baseline_insert_photo_24));
         arrayList.add(new HomeItemGridPojo("Become a member", R.drawable.ic_baseline_card_membership_24));
         arrayList.add(new HomeItemGridPojo("Member list", R.drawable.ic_baseline_list_alt_24));
-        arrayList.add(new HomeItemGridPojo("Upcoming Event", R.drawable.ic_baseline_event_24));
-        arrayList.add(new HomeItemGridPojo("Donate Member", R.drawable.ic_baseline_money_24));
+        arrayList.add(new HomeItemGridPojo("Payment", R.drawable.ic_baseline_event_24));
+        arrayList.add(new HomeItemGridPojo("Donation List", R.drawable.ic_baseline_money_24));
         arrayList.add(new HomeItemGridPojo("Contact", R.drawable.ic_baseline_contact_phone_24));
         arrayList.add(new HomeItemGridPojo("Social Media", R.drawable.ic_baseline_person_search_24));
     }

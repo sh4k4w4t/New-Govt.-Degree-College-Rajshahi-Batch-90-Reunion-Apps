@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="ngdc.rajshahi.reunion">
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -13,6 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reunion"
         tools:targetApi="31">
+        <activity
+            android:name=".anotherHomeActivity.memberList.MemberListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".anotherHomeActivity.AboutUsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="ngdc.rajshahi.reunion.HomePage"
             android:exported="false"

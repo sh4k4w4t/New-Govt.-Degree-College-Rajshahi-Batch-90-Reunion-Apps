@@ -2,15 +2,18 @@ package ngdc.rajshahi.reunion;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
+
+import ngdc.rajshahi.reunion.anotherHomeActivity.AboutUsActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
 
 public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHolder>{
 
@@ -36,28 +39,9 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
 
         holder.itemView.setOnClickListener(view -> {
             if (arrayList.get(position).getTitle().equals("About NGDCR90")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Become a member")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Member list")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Donate Member")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Gallery")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Contact")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Social Media")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
-            }
-            if (arrayList.get(position).getTitle().equals("Upcoming Event")){
-                Toast.makeText(context, arrayList.get(position).getTitle()+" Still Working...", Toast.LENGTH_SHORT).show();
+                view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
+            }if (arrayList.get(position).getTitle().equals("Member list")){
+                view.getContext().startActivity(new Intent(context, MemberListActivity.class));
             }
         });
     }

@@ -17,8 +17,15 @@
         <entry key="..\:/Users/User/Desktop/ProjectMine/ReunionApps/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/ProjectMine/ReunionApps/app/src/main/res/layout/home_item_custom_recycler_grid.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/ProjectMine/ReunionApps/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/selector_1.xml" value="0.157" />
+        <entry key="app/src/main/res/drawable/ic_baseline_contact_phone_24.xml" value="0.157" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.29814814814814816" />
+        <entry key="app/src/main/res/layout/activity_member_list.xml" value="0.2712962962962963" />
+        <entry key="app/src/main/res/layout/custom_layout_for_member_list.xml" value="0.5" />
         <entry key="app/src/main/res/layout/home_item_custom_recycler_grid.xml" value="0.4" />
+        <entry key="app/src/main/res/menu/serach_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -31,7 +38,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.4" />
+        <option name="scale" value="0.33" />
       </ProjectState>
     </option>
   </component>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NGDCR90</string>
+    <string name="about_title">About NGDCR90</string>
+    <string name="about_description">Reunion Ceremony 2022. \nNew Govt. Degree College,Rajshahi \nBatch 90</string>
+
+    <string name="search">Search</string>
 </resources>
