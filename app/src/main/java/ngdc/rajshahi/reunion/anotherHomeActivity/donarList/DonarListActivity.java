@@ -38,7 +38,7 @@ public class DonarListActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_donar_list);
-        this.setTitle("Donation List");
+        this.setTitle(getString(R.string.title_donar_list));
 
         recyclerViewId = findViewById(R.id.recyclerViewIdForDonateList);
         recyclerViewId.setLayoutManager(new LinearLayoutManager(this));

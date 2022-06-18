@@ -15,4 +15,10 @@
     <string name="website_url">http://www.ngdcr90.org/</string>
     <string name="facbook_url">https://www.facebook.com/Friendship.Never.Died.B90/</string>
     <string name="email">ngdcrbatch90@gmail.com</string>
+    <string name="still_working">Still Working....</string>
+    <string name="send_mail">Send mail....</string>
+    <string name="mail_first_part">mailto:?to=</string>
+    <string name="title_social_media">Social Media</string>
+    <string name="title_donar_list">Donation List</string>
+    <string name="title_member_list">Member List</string>
 </resources>

@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
@@ -41,16 +43,25 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(view -> {
-            if (arrayList.get(position).getTitle().equals("About NGDCR90")){
-                view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
-            }if (arrayList.get(position).getTitle().equals("Member list")){
-                view.getContext().startActivity(new Intent(context, MemberListActivity.class));
-            }if (arrayList.get(position).getTitle().equals("Donation List")){
-                view.getContext().startActivity(new Intent(context, DonarListActivity.class));
-            }if (arrayList.get(position).getTitle().equals("Contact")){
-                view.getContext().startActivity(new Intent(context, ContactActivity.class));
-            }if (arrayList.get(position).getTitle().equals("Social Media")){
-                view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
+            switch (arrayList.get(position).getTitle()) {
+                case "About NGDCR90":
+                    view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
+                    break;
+                case "Member list":
+                    view.getContext().startActivity(new Intent(context, MemberListActivity.class));
+                    break;
+                case "Donation List":
+                    view.getContext().startActivity(new Intent(context, DonarListActivity.class));
+                    break;
+                case "Contact":
+                    view.getContext().startActivity(new Intent(context, ContactActivity.class));
+                    break;
+                case "Social Media":
+                    view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
+                    break;
+                default:
+                    Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
+                    break;
             }
         });
     }
