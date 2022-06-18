@@ -12,9 +12,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-import ngdc.rajshahi.reunion.anotherHomeActivity.AboutUsActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.aboutUs.AboutUsActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.contact.ContactActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.socialMedia.SocialMediaActivity;
 
 public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHolder>{
 
@@ -45,6 +47,10 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                 view.getContext().startActivity(new Intent(context, MemberListActivity.class));
             }if (arrayList.get(position).getTitle().equals("Donation List")){
                 view.getContext().startActivity(new Intent(context, DonarListActivity.class));
+            }if (arrayList.get(position).getTitle().equals("Contact")){
+                view.getContext().startActivity(new Intent(context, ContactActivity.class));
+            }if (arrayList.get(position).getTitle().equals("Social Media")){
+                view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
             }
         });
     }

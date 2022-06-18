@@ -1,5 +1,5 @@
 
-package ngdc.rajshahi.reunion.anotherHomeActivity;
+package ngdc.rajshahi.reunion.anotherHomeActivity.aboutUs;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

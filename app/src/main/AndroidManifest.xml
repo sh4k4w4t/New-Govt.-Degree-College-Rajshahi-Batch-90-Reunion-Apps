@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ngdc.rajshahi.reunion">
+    package="ngdc.rajshahi.reunion" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,7 +14,14 @@
         android:roundIcon="@drawable/final_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Reunion"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".anotherHomeActivity.socialMedia.SocialMediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".anotherHomeActivity.contact.ContactActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".anotherHomeActivity.donarList.DonarListActivity"
             android:exported="false" />
@@ -22,7 +29,7 @@
             android:name=".anotherHomeActivity.memberList.MemberListActivity"
             android:exported="false" />
         <activity
-            android:name=".anotherHomeActivity.AboutUsActivity"
+            android:name=".anotherHomeActivity.aboutUs.AboutUsActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
@@ -32,7 +39,7 @@
         <activity
             android:name="ngdc.rajshahi.reunion.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

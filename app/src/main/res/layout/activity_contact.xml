@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:background="#FFD5D5"
-    tools:context=".anotherHomeActivity.aboutUs.AboutUsActivity">
+    tools:context=".anotherHomeActivity.contact.ContactActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -28,4 +28,5 @@
         android:textAlignment="center"
         android:text="@string/about_description"
         android:textColor="@color/black"/>
+
 </LinearLayout>

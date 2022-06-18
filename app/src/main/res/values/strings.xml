@@ -3,9 +3,16 @@
     <string name="about_title">About NGDCR90</string>
     <string name="about_description">Reunion Ceremony 2022. \nNew Govt. Degree College,Rajshahi \nBatch 90</string>
 
+
+    <string name="contact_title">Contact For Any kind of Information</string>
+    <string name="contact_description">Contact Person:   Md. Moniruzzan Kuti. \nContact Number:   +8801678137574</string>
+
     <string name="search">Search</string>
     <string name="test_name">Md Shakawat Hossain</string>
     <string name="test_email">Email: shakawat@nothingmail.com</string>
     <string name="test_phone_number">Mobile : +88958478592</string>
     <string name="test_donation_amount">Donate: 10000 BDT</string>
+    <string name="website_url">http://www.ngdcr90.org/</string>
+    <string name="facbook_url">https://www.facebook.com/Friendship.Never.Died.B90/</string>
+    <string name="email">ngdcrbatch90@gmail.com</string>
 </resources>

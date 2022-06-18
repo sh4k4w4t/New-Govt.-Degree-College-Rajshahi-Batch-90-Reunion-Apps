@@ -21,9 +21,11 @@
         <entry key="app/src/main/res/drawable/ic_baseline_contact_phone_24.xml" value="0.157" />
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.22777777777777777" />
         <entry key="app/src/main/res/layout/activity_donar_list.xml" value="0.33958333333333335" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.29814814814814816" />
         <entry key="app/src/main/res/layout/activity_member_list.xml" value="0.2712962962962963" />
+        <entry key="app/src/main/res/layout/activity_social_media.xml" value="0.22777777777777777" />
         <entry key="app/src/main/res/layout/custom_layout_for_donar_list.xml" value="0.33" />
         <entry key="app/src/main/res/layout/custom_layout_for_member_list.xml" value="0.5" />
         <entry key="app/src/main/res/layout/home_item_custom_recycler_grid.xml" value="0.4" />
