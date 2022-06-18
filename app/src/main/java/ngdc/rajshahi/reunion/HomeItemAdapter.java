@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import ngdc.rajshahi.reunion.anotherHomeActivity.AboutUsActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
 
 public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHolder>{
@@ -42,6 +43,8 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                 view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
             }if (arrayList.get(position).getTitle().equals("Member list")){
                 view.getContext().startActivity(new Intent(context, MemberListActivity.class));
+            }if (arrayList.get(position).getTitle().equals("Donation List")){
+                view.getContext().startActivity(new Intent(context, DonarListActivity.class));
             }
         });
     }

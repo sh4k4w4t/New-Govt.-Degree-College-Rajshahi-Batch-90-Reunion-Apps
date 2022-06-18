@@ -4,4 +4,8 @@
     <string name="about_description">Reunion Ceremony 2022. \nNew Govt. Degree College,Rajshahi \nBatch 90</string>
 
     <string name="search">Search</string>
+    <string name="test_name">Md Shakawat Hossain</string>
+    <string name="test_email">Email: shakawat@nothingmail.com</string>
+    <string name="test_phone_number">Mobile : +88958478592</string>
+    <string name="test_donation_amount">Donate: 10000 BDT</string>
 </resources>

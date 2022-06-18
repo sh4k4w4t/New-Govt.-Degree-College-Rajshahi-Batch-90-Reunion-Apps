@@ -7,21 +7,16 @@ import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
-
 import ngdc.rajshahi.reunion.R;
 
 public class AdapterForMemberList extends RecyclerView.Adapter<AdapterForMemberList.viewHolder>{
 
     private final ArrayList<Model_1_for_final> dataSet;
     private final ArrayList<Model_1_for_final> fullList;
-
 
     public AdapterForMemberList(ArrayList<Model_1_for_final> dataSet) {
         this.dataSet = dataSet;
