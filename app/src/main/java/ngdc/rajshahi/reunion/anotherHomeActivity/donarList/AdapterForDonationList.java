@@ -35,7 +35,7 @@ public class AdapterForDonationList extends RecyclerView.Adapter<AdapterForDonat
         holder.name.setText(modelForDonarList.getName()+"");
         holder.email.setText(modelForDonarList.getEmail()+"");
         holder.phone.setText(modelForDonarList.getMobile()+"");
-        holder.donationAmount.setText(modelForDonarList.getAmount()+"");
+        holder.donationAmount.setText("Donate:  "+modelForDonarList.getAmount()+" BDT");
     }
 
     @Override

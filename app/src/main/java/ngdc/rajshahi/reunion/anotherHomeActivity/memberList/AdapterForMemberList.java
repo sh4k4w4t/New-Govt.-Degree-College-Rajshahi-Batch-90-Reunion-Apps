@@ -34,9 +34,9 @@ public class AdapterForMemberList extends RecyclerView.Adapter<AdapterForMemberL
     @Override
     public void onBindViewHolder(@NonNull viewHolder holder, int position) {
         Model_1_for_final model_1_for_final= dataSet.get(position);
-        holder.name.setText(model_1_for_final.getUsers().getName()+"");
-        holder.email.setText(model_1_for_final.getUsers().getEmail()+"");
-        holder.number.setText(model_1_for_final.getUsers().getMobile()+"");
+        holder.name.setText(""+model_1_for_final.getUsers().getName());
+        holder.email.setText(""+model_1_for_final.getUsers().getEmail());
+        holder.number.setText("Mobile:  "+model_1_for_final.getUsers().getMobile());
         Picasso.get().load(model_1_for_final.getImage()+"").into(holder.profilePicture);
     }
 
