@@ -16,6 +16,7 @@ import java.util.ArrayList;
 
 import ngdc.rajshahi.reunion.R;
 import ngdc.rajshahi.reunion.anotherHomeActivity.aboutUs.AboutUsActivity;
+import ngdc.rajshahi.reunion.anotherHomeActivity.becomeAmember.Become_a_member_activity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.contact.ContactActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
@@ -59,6 +60,9 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                     break;
                 case "Social Media":
                     view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
+                    break;
+                case "Become a member":
+                    view.getContext().startActivity(new Intent(context, Become_a_member_activity.class));
                     break;
                 default:
                     Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
