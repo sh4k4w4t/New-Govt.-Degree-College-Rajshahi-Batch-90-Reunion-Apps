@@ -24,8 +24,7 @@ public class RetrofitApi {
                         .build();
 
                 api= new Retrofit.Builder()
-//                        .baseUrl("http://www.ngdcr90.org/api/")
-                        .baseUrl("https://application.bengalislamilife.com.bd/json_file/test/")
+                        .baseUrl("https://www.ngdcr90.org/api/")
                         .client(okHttpClient)
                         .addConverterFactory(GsonConverterFactory.create(gson))
                         .build();

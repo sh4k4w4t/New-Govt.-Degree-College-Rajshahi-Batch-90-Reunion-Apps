@@ -9,11 +9,10 @@ import retrofit2.http.GET;
 
 public interface RetrofitInterface {
 
-    //    @GET("member-list")
-    @GET("member-list.json")
+    @GET("member-list")
     Call<ArrayList<Model_1_for_final>> memberList();
 
-    @GET("donar-list.json")
+    @GET("donar-list")
     Call<ArrayList<ModelForDonarList>> donationList();
 
 }
