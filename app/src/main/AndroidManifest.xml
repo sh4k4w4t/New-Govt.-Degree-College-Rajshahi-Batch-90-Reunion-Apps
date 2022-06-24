@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Reunion"
         tools:targetApi="31">
         <activity
+            android:name=".payment.PaymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".anotherHomeActivity.becomeAmember.Become_a_member_activity"
             android:exported="false" />
         <activity

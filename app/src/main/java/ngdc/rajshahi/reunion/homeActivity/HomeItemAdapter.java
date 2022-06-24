@@ -21,6 +21,7 @@ import ngdc.rajshahi.reunion.anotherHomeActivity.contact.ContactActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.socialMedia.SocialMediaActivity;
+import ngdc.rajshahi.reunion.payment.PaymentActivity;
 
 public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHolder>{
 
@@ -46,7 +47,7 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
 
         holder.itemView.setOnClickListener(view -> {
             switch (arrayList.get(position).getTitle()) {
-                case "About NGDCR90":
+                case "About us":
                     view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
                     break;
                 case "Member list":
@@ -63,6 +64,9 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                     break;
                 case "Become a member":
                     view.getContext().startActivity(new Intent(context, Become_a_member_activity.class));
+                    break;
+                case "Payment":
+                    view.getContext().startActivity(new Intent(context, PaymentActivity.class));
                     break;
                 default:
                     Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
