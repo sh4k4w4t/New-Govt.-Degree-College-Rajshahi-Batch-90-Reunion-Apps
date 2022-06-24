@@ -1,4 +1,4 @@
-package ngdc.rajshahi.reunion;
+package ngdc.rajshahi.reunion.homeActivity;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.ViewFlipper;
 import java.util.ArrayList;
+
+import ngdc.rajshahi.reunion.R;
 
 public class HomePage extends AppCompatActivity {
     ViewFlipper viewFlipperID;

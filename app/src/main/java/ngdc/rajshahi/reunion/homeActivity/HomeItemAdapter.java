@@ -1,4 +1,4 @@
-package ngdc.rajshahi.reunion;
+package ngdc.rajshahi.reunion.homeActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
+import ngdc.rajshahi.reunion.R;
 import ngdc.rajshahi.reunion.anotherHomeActivity.aboutUs.AboutUsActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.contact.ContactActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;

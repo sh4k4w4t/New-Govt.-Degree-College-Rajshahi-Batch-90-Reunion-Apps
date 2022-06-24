@@ -7,6 +7,8 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
+import ngdc.rajshahi.reunion.homeActivity.HomePage;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -1,19 +1,15 @@
 
 package ngdc.rajshahi.reunion.anotherHomeActivity.aboutUs;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import java.util.Objects;
-
-import ngdc.rajshahi.reunion.HomePage;
+import ngdc.rajshahi.reunion.homeActivity.HomePage;
 import ngdc.rajshahi.reunion.R;
 
 public class AboutUsActivity extends AppCompatActivity {

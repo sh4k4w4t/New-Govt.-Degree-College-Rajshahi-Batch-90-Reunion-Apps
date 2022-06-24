@@ -1,4 +1,4 @@
-package ngdc.rajshahi.reunion;
+package ngdc.rajshahi.reunion.homeActivity;
 
 public class HomeItemGridPojo {
     private final String title;
