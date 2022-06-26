@@ -12,9 +12,9 @@ import android.widget.Toast;
 import ngdc.rajshahi.reunion.R;
 
 public class Become_a_member_activity extends AppCompatActivity {
-    EditText formName,formEmail,formMobile,formPresentAddress,formPermanentAddress,formGroup,formNameFather,formNameMother,formNameSpouse,formNumberOfChild,formOccupation,formInstituteName,formDesignation,formOfficeAddress,formMemberType;
+    EditText formPasswordConfirm,formPassword,formName,formEmail,formMobile,formPresentAddress,formPermanentAddress,formGroup,formNameFather,formNameMother,formNameSpouse,formNumberOfChild,formOccupation,formInstituteName,formDesignation,formOfficeAddress,formMemberType;
     Button formSubmitButton;
-    String formMemberTypeCollected,formOfficeAddressCollected,formInstituteNameCollected,formOccupationCollected,formDesignationCollected,formNumberOfChildCollected,formNameSpouseCollected,formNameMotherCollected,formNameFatherCollected,formGroupCollected,formPermanentAddressCollected,formNameCollected,formEmailCollected,formMobileCollected,formPresentAddressCollected;
+    String formPasswordConfirmCollected,formPasswordCollected,formMemberTypeCollected,formOfficeAddressCollected,formInstituteNameCollected,formOccupationCollected,formDesignationCollected,formNumberOfChildCollected,formNameSpouseCollected,formNameMotherCollected,formNameFatherCollected,formGroupCollected,formPermanentAddressCollected,formNameCollected,formEmailCollected,formMobileCollected,formPresentAddressCollected;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class Become_a_member_activity extends AppCompatActivity {
             if (formNameCollected.equals("")||formEmailCollected.equals("")||formMobileCollected.equals("")||formPresentAddressCollected.equals("")||formPermanentAddressCollected.equals("")||formGroupCollected.equals("")||formNameFatherCollected.equals("")||formNameMotherCollected.equals("")||formNameSpouseCollected.equals("")||formNumberOfChildCollected.equals("")||formOccupationCollected.equals("")||formInstituteNameCollected.equals("")||formDesignationCollected.equals("")||formOfficeAddressCollected.equals("")||formMemberTypeCollected.equals("")){
                 Toast.makeText(this, "Fill up all information", Toast.LENGTH_SHORT).show();
             }else {
-                Toast.makeText(this, "Successfull submit your data", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Successful submit your data", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -54,6 +54,8 @@ public class Become_a_member_activity extends AppCompatActivity {
         formDesignationCollected=formDesignation.getText().toString().trim();
         formOfficeAddressCollected=formOfficeAddress.getText().toString().trim();
         formMemberTypeCollected=formMemberType.getText().toString().trim();
+        formPasswordCollected=formPassword.getText().toString().trim();
+        formPasswordConfirmCollected=formPasswordConfirm.getText().toString().trim();
     }
     private void utilizedUI() {
         formSubmitButton=findViewById(R.id.formSubmitButton);
@@ -72,5 +74,7 @@ public class Become_a_member_activity extends AppCompatActivity {
         formDesignation=findViewById(R.id.formDesignation);
         formOfficeAddress=findViewById(R.id.formOfficeAddress);
         formMemberType=findViewById(R.id.formMemberType);
+        formPassword=findViewById(R.id.formPassword);
+        formPasswordConfirm=findViewById(R.id.formPasswordConfirm);
     }
 }

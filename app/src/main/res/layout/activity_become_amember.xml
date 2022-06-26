@@ -96,7 +96,7 @@
                 android:inputType="textPassword" />
 
             <EditText
-                android:id="@+id/formPasswordComfirm"
+                android:id="@+id/formPasswordConfirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="7dp"
