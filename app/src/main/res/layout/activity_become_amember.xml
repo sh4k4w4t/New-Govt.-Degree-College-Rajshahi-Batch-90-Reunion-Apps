@@ -6,234 +6,234 @@
     android:layout_height="match_parent"
     tools:context=".anotherHomeActivity.becomeAmember.Become_a_member_activity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="13dp"
-            android:layout_marginTop="13dp"
-            android:layout_marginEnd="13dp"
-            android:layout_marginBottom="25dp"
-            android:orientation="vertical">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="13dp"-->
+<!--            android:layout_marginTop="13dp"-->
+<!--            android:layout_marginEnd="13dp"-->
+<!--            android:layout_marginBottom="25dp"-->
+<!--            android:orientation="vertical">-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:background="#F8D9D9"
-                android:padding="8dp"
-                android:text="Personal Information"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="#F8D9D9"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Personal Information"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/black"/>-->
 
-            <EditText
-                android:id="@+id/formName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Name"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Name"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formMobile"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Mobile Number"
-                android:inputType="phone" />
+<!--            <EditText-->
+<!--                android:id="@+id/formMobile"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Mobile Number"-->
+<!--                android:inputType="phone" />-->
 
-            <EditText
-                android:id="@+id/formPresentAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Present Address"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formPresentAddress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Present Address"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formPermanentAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:hint="Permanent Address"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formPermanentAddress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:hint="Permanent Address"-->
+<!--                android:inputType="text" />-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:orientation="horizontal"
-                android:weightSum="6"
-                android:background="@drawable/selector_1">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="6"-->
+<!--                android:background="@drawable/selector_1">-->
 
-                <TextView
-                    android:id="@+id/formImageFileChooserFileName"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:text="Select Image File"
-                    android:paddingStart="10dp"
-                    android:paddingEnd="5dp" />
-                <Button
-                    android:id="@+id/formImageFileChooserButton"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="Select"/>
+<!--                <TextView-->
+<!--                    android:id="@+id/formImageFileChooserFileName"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="4"-->
+<!--                    android:text="Select Image File"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:paddingEnd="5dp" />-->
+<!--                <Button-->
+<!--                    android:id="@+id/formImageFileChooserButton"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:text="Select"/>-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                android:background="#F8D9D9"
-                android:padding="8dp"
-                android:text="Account Information"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="#F8D9D9"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Account Information"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/black"/>-->
 
-            <EditText
-                android:id="@+id/formEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Email (Optional)"
-                android:inputType="textEmailAddress" />
+<!--            <EditText-->
+<!--                android:id="@+id/formEmail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Email (Optional)"-->
+<!--                android:inputType="textEmailAddress" />-->
 
-            <EditText
-                android:id="@+id/formPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Password"
-                android:inputType="textPassword" />
+<!--            <EditText-->
+<!--                android:id="@+id/formPassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Password"-->
+<!--                android:inputType="textPassword" />-->
 
-            <EditText
-                android:id="@+id/formPasswordConfirm"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Comfirm Password"
-                android:inputType="textPassword" />
+<!--            <EditText-->
+<!--                android:id="@+id/formPasswordConfirm"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Comfirm Password"-->
+<!--                android:inputType="textPassword" />-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                android:background="#F8D9D9"
-                android:padding="8dp"
-                android:text="Study Information"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="#F8D9D9"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Study Information"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/black"/>-->
 
-            <EditText
-                android:id="@+id/formGroup"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Group"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formGroup"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Group"-->
+<!--                android:inputType="text" />-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                android:background="#F8D9D9"
-                android:padding="8dp"
-                android:text="Family Information"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="#F8D9D9"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Family Information"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/black"/>-->
 
-            <EditText
-                android:id="@+id/formNameSpouse"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Spouse Name (Optional)"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formNameSpouse"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Spouse Name (Optional)"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formNumberOfChild"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Child Number (Optional)"
-                android:inputType="number" />
+<!--            <EditText-->
+<!--                android:id="@+id/formNumberOfChild"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Child Number (Optional)"-->
+<!--                android:inputType="number" />-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                android:background="#F8D9D9"
-                android:padding="8dp"
-                android:text="Occupational Information"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="#F8D9D9"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Occupational Information"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/black"/>-->
 
 
-            <EditText
-                android:id="@+id/formOccupation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Occupation"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formOccupation"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Occupation"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formInstituteName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Institute Name"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formInstituteName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Institute Name"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formDesignation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Designation"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formDesignation"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Designation"-->
+<!--                android:inputType="text" />-->
 
-            <EditText
-                android:id="@+id/formOfficeAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
-                android:hint="Office Address"
-                android:inputType="text" />
+<!--            <EditText-->
+<!--                android:id="@+id/formOfficeAddress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="7dp"-->
+<!--                android:hint="Office Address"-->
+<!--                android:inputType="text" />-->
 
-            <Button
-                android:id="@+id/formSubmitButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="13dp"
-                android:layout_marginBottom="15dp"
-                android:text="Submit"/>
+<!--            <Button-->
+<!--                android:id="@+id/formSubmitButton"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="13dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:text="Submit"/>-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
-    </ScrollView>
+<!--    </ScrollView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

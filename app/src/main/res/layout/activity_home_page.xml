@@ -3,14 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".homeActivity.HomePage"
     android:orientation="vertical">
 
-    <ViewFlipper
-        android:id="@+id/viewFlipperID"
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:layout_margin="2dp"/>
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_marginTop="10dp"
+        android:theme="@style/Theme.Material3.Light.NoActionBar">
+
+        <ViewFlipper
+            android:id="@+id/viewFlipperID"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
 
     <ScrollView
         android:id="@+id/scrollView2"

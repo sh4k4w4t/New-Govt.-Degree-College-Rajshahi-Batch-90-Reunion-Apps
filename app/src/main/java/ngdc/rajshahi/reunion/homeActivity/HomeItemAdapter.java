@@ -61,9 +61,6 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                 case "Social Media":
                     view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
                     break;
-                case "Become a member":
-                    view.getContext().startActivity(new Intent(context, Become_a_member_activity.class));
-                    break;
                 case "Payment":
                     view.getContext().startActivity(new Intent(context, PaymentActivity.class));
                     break;
