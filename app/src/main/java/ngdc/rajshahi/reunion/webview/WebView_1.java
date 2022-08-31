@@ -168,14 +168,14 @@ public class WebView_1 extends AppCompatActivity {
             binding.progressBar.setVisibility(View.GONE);
             Log.e("TAG", "onPageFinished: "+url);
 
-            String webUrl_base="https://www.ngdcr90.org/";  //homepage activity
-            String webUrl_about="https://www.ngdcr90.org/about";  //about activity
-            String webUrl_memberList="https://www.ngdcr90.org/member-list";  //member list activity
-            String webUrl_member_register="https://www.ngdcr90.org/member-register";  //become a member activity
-            String webUrl_get_user_payment="https://www.ngdcr90.org/get-user-payment";  //payment activity
-            String webUrl_donation="https://www.ngdcr90.org/donation"; //Homepage
-            String webUrl_donation_list="https://www.ngdcr90.org/donation-list";  //donar list activity
-            String webUrl_gallery="https://www.ngdcr90.org/gallery"; //webview
+//            String webUrl_base="https://www.ngdcr90.org/";  //homepage activity
+//            String webUrl_about="https://www.ngdcr90.org/about";  //about activity
+//            String webUrl_memberList="https://www.ngdcr90.org/member-list";  //member list activity
+//            String webUrl_member_register="https://www.ngdcr90.org/member-register";  //become a member activity
+//            String webUrl_get_user_payment="https://www.ngdcr90.org/get-user-payment";  //payment activity
+//            String webUrl_donation="https://www.ngdcr90.org/donation"; //Homepage
+//            String webUrl_donation_list="https://www.ngdcr90.org/donation-list";  //donar list activity
+//            String webUrl_gallery="https://www.ngdcr90.org/gallery"; //webview
 
             String member_store= "https://www.ngdcr90.org/member-register-store";
             String payment_store= "https://www.ngdcr90.org/user-payment/store";
