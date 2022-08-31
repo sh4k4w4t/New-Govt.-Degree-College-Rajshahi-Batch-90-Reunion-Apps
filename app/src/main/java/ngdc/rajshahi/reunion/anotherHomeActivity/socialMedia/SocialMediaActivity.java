@@ -8,13 +8,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 import ngdc.rajshahi.reunion.homeActivity.HomePage;
 import ngdc.rajshahi.reunion.R;
 
 public class SocialMediaActivity extends AppCompatActivity {
-    CardView facebook, website, mail_us,meetUp;
+    CardView facebook, website, mail_us;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +27,6 @@ public class SocialMediaActivity extends AppCompatActivity {
         facebook= findViewById(R.id.follow_us_facebook_id);
         website= findViewById(R.id.follow_us_Website);
         mail_us= findViewById(R.id.follow_us_email);
-        meetUp= findViewById(R.id.follow_us_meetUp);
 
         facebook.setOnClickListener(view -> {
             String full_address = getResources().getString(R.string.facbook_url);
@@ -50,8 +48,6 @@ public class SocialMediaActivity extends AppCompatActivity {
             mailIntent.setData(data);
             startActivity(Intent.createChooser(mailIntent, getString(R.string.send_mail)));
         });
-
-        meetUp.setOnClickListener(view -> Toast.makeText(this, R.string.still_working, Toast.LENGTH_SHORT).show());
     }
 
     @Override
