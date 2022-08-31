@@ -4,14 +4,16 @@
     <string name="about_description">Reunion Ceremony 2022. \nNew Govt. Degree College,Rajshahi \nBatch 90</string>
 
     <string name="contact_title">Contact For Any kind of Information</string>
-    <string name="contact_description">Contact Person:   Md. Moniruzzan Kuti. \nContact Number:   +8801678137574</string>
+    <string name="contact_description_1">Moniruzzan Kuti \nMobile :   +8801678137574</string>
+    <string name="contact_description_2">Sadiq Iqbal \nMobile :   +8801601110124</string>
+    <string name="content_full_description">New Govt. Degree College, Rajshahi is an educational institution located in Rajshahi city was established in 1986. It offers undergraduate and postgraduate degrees under Bangladesh National University. It was initially up to higher secondary, then it was called Government Intermediate College. Later it was upgraded to Degree College and renamed as Rajshahi New Govt. Degree College. Prior to the establishment of the college, it was the building of the Board of Education. Currently, students are studying science, arts and business education here. The number of teachers is 69 and 9 regular employees and also 23 irregular employees. The total number of students studying various subjects is about six thousand.</string>
 
     <string name="search">Search</string>
     <string name="test_name">Md Shakawat Hossain</string>
     <string name="test_email">Email: shakawat@nothingmail.com</string>
     <string name="test_phone_number">Mobile : +88958478592</string>
     <string name="test_donation_amount">Donate: 10000 BDT</string>
-    <string name="website_url">http://www.ngdcr90.org/</string>
+    <string name="website_url">https://www.ngdcr90.org/</string>
     <string name="facbook_url">https://www.facebook.com/Friendship.Never.Died.B90/</string>
     <string name="email">ngdcrbatch90@gmail.com</string>
     <string name="still_working">Still Working....</string>

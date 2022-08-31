@@ -12,7 +12,7 @@ import ngdc.rajshahi.reunion.homeActivity.HomePage;
 import ngdc.rajshahi.reunion.R;
 
 public class ContactActivity extends AppCompatActivity {
-    TextView textView,textView2;
+    TextView textView,textView2,textView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +23,10 @@ public class ContactActivity extends AppCompatActivity {
 
         textView= findViewById(R.id.textView);
         textView2= findViewById(R.id.textView2);
+        textView3= findViewById(R.id.textView3);
         textView.setText(getResources().getString(R.string.contact_title));
-        textView2.setText(getResources().getString(R.string.contact_description));
+        textView2.setText(getResources().getString(R.string.contact_description_1));
+        textView3.setText(getResources().getString(R.string.contact_description_2));
     }
 
     @Override

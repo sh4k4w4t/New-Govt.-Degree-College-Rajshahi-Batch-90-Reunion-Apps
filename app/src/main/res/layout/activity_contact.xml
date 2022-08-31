@@ -7,6 +7,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:background="#FFD5D5"
+    android:layout_margin="2dp"
     tools:context=".anotherHomeActivity.contact.ContactActivity">
 
     <TextView
@@ -28,5 +29,17 @@
         android:textAlignment="center"
         android:text="@string/about_description"
         android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/about_description"
+        android:textColor="@color/black"/>
+
+
 
 </LinearLayout>
