@@ -13,7 +13,7 @@ import ngdc.rajshahi.reunion.homeActivity.HomePage;
 import ngdc.rajshahi.reunion.R;
 
 public class AboutUsActivity extends AppCompatActivity {
-    TextView textView,textView2,textView3,aboutCollege,collegeInfo;
+    TextView textView,textView2,textView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
