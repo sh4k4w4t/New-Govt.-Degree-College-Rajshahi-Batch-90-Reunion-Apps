@@ -22,4 +22,8 @@
     <string name="title_social_media">Social Media</string>
     <string name="title_donar_list">Donation List</string>
     <string name="title_member_list">Member List</string>
+
+    <string name="send_url">url</string>
+    <string name="send_title">title</string>
+    <string name="where_from">where_from</string>
 </resources>

@@ -1,6 +1,7 @@
 package ngdc.rajshahi.reunion.homeActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -22,6 +23,7 @@ import ngdc.rajshahi.reunion.anotherHomeActivity.donarList.DonarListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.memberList.MemberListActivity;
 import ngdc.rajshahi.reunion.anotherHomeActivity.socialMedia.SocialMediaActivity;
 import ngdc.rajshahi.reunion.payment.PaymentActivity;
+import ngdc.rajshahi.reunion.webview.WebView_1;
 
 public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHolder>{
 
@@ -62,13 +64,37 @@ public class HomeItemAdapter extends RecyclerView.Adapter<HomeItemAdapter.MyHold
                     view.getContext().startActivity(new Intent(context, SocialMediaActivity.class));
                     break;
                 case "Payment":
-                    view.getContext().startActivity(new Intent(context, PaymentActivity.class));
+                    String full_address_for_payment= "https://www.ngdcr90.org/get-user-payment";
+                    String title_for_payment = "Gallery";
+                    String whereFrom_for_payment = "HomePage";
+                    goToWebView(full_address_for_payment,title_for_payment,whereFrom_for_payment,view.getContext(), new WebView_1());
+                    break;
+                case "Gallery":
+                    String full_address_for_gallery= "https://www.ngdcr90.org/gallery";
+                    String title_for_gallery = "Gallery";
+                    String whereFrom_for_gallery = "HomePage";
+                    goToWebView(full_address_for_gallery,title_for_gallery,whereFrom_for_gallery,view.getContext(), new WebView_1());
+                    break;
+                case "Become a member":
+                    String full_address_for_become_member= "https://www.ngdcr90.org/member-register";
+                    String title_for_become_member = "Become a Member";
+                    String whereFrom_for_become_member = "HomePage";
+                    goToWebView(full_address_for_become_member,title_for_become_member,whereFrom_for_become_member,view.getContext(), new WebView_1());
                     break;
                 default:
                     Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
                     break;
             }
         });
+    }
+
+    public void goToWebView(String url,String title,String whereFrom,Context mainActivity, Activity targetActivity){
+        Intent intent = new Intent(mainActivity, targetActivity.getClass());
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra(context.getResources().getString(R.string.send_url), url);
+        intent.putExtra(context.getResources().getString(R.string.send_title), title);
+        intent.putExtra(context.getResources().getString(R.string.where_from), whereFrom);
+        context.startActivity(intent);
     }
 
     @Override
